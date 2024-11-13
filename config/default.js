@@ -37,7 +37,7 @@ module.exports = {
   // 'sendgridApiKey': process.env.SENDGRIDKEY,
   // 'emailLinkHostPrefix': 'http://localhost:3030',
 
-  'mongodb': "mongodb://localhost:27017/HealthStack",
+  'mongodb': "mongodb+srv://ayomidesherif2019:nr7RCjn36amnD5jC@cluster0.tpfcc.mongodb.net/hs-backend?retryWrites=true&w=majority&appName=Cluster0",
   'accessKeyId': process.env.ACCESSKEYID,
   'secretAccessKey': process.env.ACCESSSECRETKEY,
   's3Bucket': process.env.BUCKET,
