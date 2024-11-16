@@ -9,10 +9,8 @@ module.exports = function (app) {
     logger.error(err);
     process.exit(1);
   });
-  // mongoose.set('debug', true);
 
   app.set('mongooseClient', mongoose);
 };
 
-// nr7RCjn36amnD5jC
 
