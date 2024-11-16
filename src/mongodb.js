@@ -1,12 +1,12 @@
-const MongoClient = require('mongodb').MongoClient;
+// const MongoClient = require('mongodb').MongoClient;
 
-module.exports = function (app) {
-  const connection = app.get('mongodb');
-  const database = connection.substr(connection.lastIndexOf('/') + 1);
+// module.exports = function (app) {
+//   const connection = app.get('mongodb');
+//   // const database = connection.substr(connection.lastIndexOf('/') + 1);
 
-  console.log(database)
-  const mongoClient = MongoClient.connect(connection, { useUnifiedTopology: true, useNewUrlParser: true})
-    .then(client => client.db(database));
+//   // console.log(database)
+//   const mongoClient = MongoClient.connect(connection, { useUnifiedTopology: true, useNewUrlParser: true})
+//     .then(client => client.db(database));
 
-  app.set('mongoClient', mongoClient);
-};
+//   app.set('mongoClient', mongoClient);
+// };

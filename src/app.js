@@ -45,7 +45,7 @@ app.use('/fileuploads', express.static(app.get('fileu')));
 app.configure(express.rest());
 app.configure(socketio());
 
-app.configure(mongodb);
+// app.configure(mongodb);
 app.configure(mongoose);
 
 // Configure other middleware (see `middleware/index.js`)
