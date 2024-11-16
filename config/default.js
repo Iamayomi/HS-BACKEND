@@ -37,7 +37,9 @@ module.exports = {
   // 'sendgridApiKey': process.env.SENDGRIDKEY,
   // 'emailLinkHostPrefix': 'http://localhost:3030',
 
-  'mongodb': "mongodb+srv://ayomidesherif2019:nr7RCjn36amnD5jC@cluster0.tpfcc.mongodb.net/hs-backend?retryWrites=true&w=majority&appName=Cluster0",
+  // 'mongodb': "mongodb+srv://ayomidesherif2019:nr7RCjn36amnD5jC@cluster0.tpfcc.mongodb.net/hs-backend?retryWrites=true&w=majority&appName=Cluster0",
+
+  'mongodb': "mongodb+srv://ayomidesherif2019:nr7RCjn36amnD5jC@cluster0.tpfcc.mongodb.net/hs-backend",
   'accessKeyId': process.env.ACCESSKEYID,
   'secretAccessKey': process.env.ACCESSSECRETKEY,
   's3Bucket': process.env.BUCKET,
