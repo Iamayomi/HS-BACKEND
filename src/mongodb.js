@@ -4,7 +4,6 @@ module.exports = function (app) {
   const connection = app.get('mongodb');
   const database = connection.substr(connection.lastIndexOf('/') + 1);
 
-  console.log(connection)
   const mongoClient = MongoClient.connect(connection, { useUnifiedTopology: true, useNewUrlParser: true})
     .then(client => client.db(database));
 
